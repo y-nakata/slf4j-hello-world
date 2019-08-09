@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation 'org.slf4j:slf4j-api:1.7.27'
+    
+	// slf4j-log4j12
+    //implementation 'org.slf4j:slf4j-log4j12:1.7.27'
+	//implementation 'log4j:log4j:1.2.17'
+
+	// slf4j-jdk14
+    //implementation 'org.slf4j:slf4j-jdk14:1.7.27'
+    
+    // slf4j-nop
+    //implementation 'org.slf4j:slf4j-nop:1.7.27'
+	
+    // slf4j-simple
+    //implementation 'org.slf4j:slf4j-simple:1.7.27'
+
+	// slf4j-jcl
+    //implementation 'org.slf4j:slf4j-jcl:1.7.27'
+	//implementation 'commons-logging:commons-logging:1.2'
+	//implementation 'log4j:log4j:1.2.17'
+	
+	// logback-classic
+	// https://mvnrepository.com/artifact/ch.qos.logback/logback-classic
+	implementation 'ch.qos.logback:logback-classic:1.2.3'
+	
+    // Use JUnit test framework
+    testImplementation 'junit:junit:4.12'
+}
