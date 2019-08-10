@@ -7,8 +7,6 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.slf4j:slf4j-api:1.7.27'
-    
 	// slf4j-log4j12
     //implementation 'org.slf4j:slf4j-log4j12:1.7.27'
 	//implementation 'log4j:log4j:1.2.17'
@@ -28,8 +26,11 @@ dependencies {
 	//implementation 'log4j:log4j:1.2.17'
 	
 	// logback-classic
-	// https://mvnrepository.com/artifact/ch.qos.logback/logback-classic
 	implementation 'ch.qos.logback:logback-classic:1.2.3'
+	
+	// Log4j 2 SLF4J Binding
+	//implementation 'org.apache.logging.log4j:log4j-slf4j-impl:2.12.0'
+	
 	
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
