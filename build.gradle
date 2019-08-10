@@ -12,13 +12,13 @@ dependencies {
     //implementation 'log4j:log4j:1.2.17'
 
     // slf4j-jdk14
-    //implementation 'org.slf4j:slf4j-jdk14:1.7.27'
+    implementation 'org.slf4j:slf4j-jdk14:1.7.27'
 
     // slf4j-nop
     //implementation 'org.slf4j:slf4j-nop:1.7.27'
 
     // slf4j-simple
-    implementation 'org.slf4j:slf4j-simple:1.7.27'
+    //implementation 'org.slf4j:slf4j-simple:1.7.27'
 
     // slf4j-jcl
     //implementation 'org.slf4j:slf4j-jcl:1.7.27'
