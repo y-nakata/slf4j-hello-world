@@ -1,13 +1,16 @@
+import java.lang.invoke.MethodHandles;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class HelloWorld {
-	static  {
+	final static Logger logger = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
+
+	static {
 		Utils.configureJdk14Logger();
 	}
 
 	public static void main(String[] args) {
-		Logger logger = LoggerFactory.getLogger(HelloWorld.class);
 		logger.info("Hello World");
 	}
 }
